@@ -211,7 +211,7 @@ def compute_f0(
                 "type must be dio, crepe, crepe-tiny, harvest or parselmouth"
             )
     rtf = t.elapsed / (len(wav_numpy) / sampling_rate)
-    LOG.info(f"F0 inference time:       {t.elapsed:.3f}s, RTF: {rtf:.3f}")
+    LOG.info(f"F0 {method} inference time:       {t.elapsed:.3f}s, RTF: {rtf:.3f}")
     return f0
 
 

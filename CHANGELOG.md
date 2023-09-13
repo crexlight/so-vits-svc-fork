@@ -2,6 +2,78 @@
 
 <!--next-version-placeholder-->
 
+## v4.1.7 (2023-09-12)
+
+### Fix
+
+* **deps:** Update dependency matplotlib to v3.7.3 ([#940](https://github.com/voicepaw/so-vits-svc-fork/issues/940)) ([`302d5a7`](https://github.com/voicepaw/so-vits-svc-fork/commit/302d5a7dd0f0578d9f126c898b1c871f22987742))
+
+## v4.1.6 (2023-09-06)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.33.1 ([#929](https://github.com/voicepaw/so-vits-svc-fork/issues/929)) ([`f3e3b68`](https://github.com/voicepaw/so-vits-svc-fork/commit/f3e3b689d416f7191b8c5a25976afb0b11b4a3c7))
+
+## v4.1.5 (2023-09-05)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.33.0 ([#924](https://github.com/voicepaw/so-vits-svc-fork/issues/924)) ([`146d3ae`](https://github.com/voicepaw/so-vits-svc-fork/commit/146d3ae33aeb7b7440b47a89f286ec2dfe4c689f))
+
+## v4.1.4 (2023-09-02)
+
+### Fix
+
+* **deps:** Update dependency fastapi to v0.103.1 ([#920](https://github.com/voicepaw/so-vits-svc-fork/issues/920)) ([`f7473aa`](https://github.com/voicepaw/so-vits-svc-fork/commit/f7473aa1226c8aed89b44f6d08bea05dba68e882))
+
+## v4.1.3 (2023-08-30)
+
+### Fix
+
+* **deps:** Update dependency lightning to v2.0.8 ([#917](https://github.com/voicepaw/so-vits-svc-fork/issues/917)) ([`825fa44`](https://github.com/voicepaw/so-vits-svc-fork/commit/825fa44279bd7c3c2812efafe4f9757803f04519))
+
+## v4.1.2 (2023-08-28)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.32.1 ([#916](https://github.com/voicepaw/so-vits-svc-fork/issues/916)) ([`da7a72f`](https://github.com/voicepaw/so-vits-svc-fork/commit/da7a72ff0b11231793e48ac5fcb38a1b022fa26b))
+
+### Documentation
+
+* **readme:** Add instructions for pipx installation, update torch urls ([#899](https://github.com/voicepaw/so-vits-svc-fork/issues/899)) ([`0b02c49`](https://github.com/voicepaw/so-vits-svc-fork/commit/0b02c49edb5701becfe141645f0e3fc00c241944))
+* Add shenberg as a contributor for userTesting, ideas, and code ([#810](https://github.com/voicepaw/so-vits-svc-fork/issues/810)) ([`319ddf3`](https://github.com/voicepaw/so-vits-svc-fork/commit/319ddf35e2f7e915bbf786fa785ec2734f4b0c00))
+
+## v4.1.1 (2023-07-02)
+
+### Fix
+
+* **inference:** Remove weight norm on inference so metal backend will work without CPU fallback ([#783](https://github.com/voicepaw/so-vits-svc-fork/issues/783)) ([`39ea0bc`](https://github.com/voicepaw/so-vits-svc-fork/commit/39ea0bc57f39fdbbcf07c92fab310474d95d1d39))
+
+## v4.1.0 (2023-06-25)
+
+### Feature
+
+* **cluster,preprocess_split:** Add batched loading to clustering & max length per clip to split ([#786](https://github.com/voicepaw/so-vits-svc-fork/issues/786)) ([`4179ec9`](https://github.com/voicepaw/so-vits-svc-fork/commit/4179ec9e1d1ac20cffc9e66f522b5f865828f7fe))
+
+### Documentation
+
+* Add Zerui18 as a contributor for code, and ideas ([#794](https://github.com/voicepaw/so-vits-svc-fork/issues/794)) ([`4e74fc4`](https://github.com/voicepaw/so-vits-svc-fork/commit/4e74fc4f2f9165a48d75565ae5d0910b6b77dbaf))
+* Add Ph0rk0z as a contributor for bug, and code ([#793](https://github.com/voicepaw/so-vits-svc-fork/issues/793)) ([`8dc25c7`](https://github.com/voicepaw/so-vits-svc-fork/commit/8dc25c793a8a92985ac589b31cc863768a9ba6a7))
+
+## v4.0.3 (2023-06-25)
+
+### Fix
+
+* **inference:** Pass str instead of Path in sf.load() and sf.write() ([#769](https://github.com/voicepaw/so-vits-svc-fork/issues/769)) ([`561cbfe`](https://github.com/voicepaw/so-vits-svc-fork/commit/561cbfe64927371ea68c0be70b4bc5007f6514b4))
+
+### Documentation
+
+* Add Star3Lord as a contributor for bug, and code ([#790](https://github.com/voicepaw/so-vits-svc-fork/issues/790)) ([`b3e2cfe`](https://github.com/voicepaw/so-vits-svc-fork/commit/b3e2cfe1294e7b64f76cd34c5b527a080ede2e87))
+
+## v4.0.2 (2023-06-14)
+### Fix
+* **inference:** Fix typo in core.py ([#738](https://github.com/voicepaw/so-vits-svc-fork/issues/738)) ([`6a87d32`](https://github.com/voicepaw/so-vits-svc-fork/commit/6a87d323ec7716f09062e4846c31e58758a27e33))
+
 ## v4.0.1 (2023-05-29)
 ### Fix
 * **gui:** Fix window scaling ([#716](https://github.com/voicepaw/so-vits-svc-fork/issues/716)) ([`9cd720c`](https://github.com/voicepaw/so-vits-svc-fork/commit/9cd720c60d7baa6a945610f674820e14c4833917))
